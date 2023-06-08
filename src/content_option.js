@@ -170,13 +170,13 @@ const dataportfolio = [
 	{
 		img: "Images/sniffer2.png",
 		description:
-			"Together with my friends, we developed a packet sniffer that monitors and captures two-way network traffic, displaying the captured data with headers using TCP, UDP, and ICMP protocols. The project utilized Python3, Linux OS, and modules like Struct, sockets, argparse, coloroma, and textwrap.",
+			"I developed a packet sniffer that monitors and captures two-way network traffic, displaying it with headers using TCP, UDP, and ICMP protocols. The project utilized Python3, Linux OS, and modules like Struct, sockets, argparse, coloroma, and textwrap.",
 		link: "https://github.com/Gaurav9912/Packet-Sniffer",
 	},
 	{
 		img: "Images/gridbox.png",
 		description:
-			"In my Valorant-inspired game, gridbox-shooter, players experience raycast-based shooting mechanics, weapon variety with unique animations, enemy AI, particle effects, and dynamic damage calculations. Creating this project was a challenging and educational endeavor.",
+			"In gridbox-shooter, players experience raycast-based shooting mechanics, weapon variety with unique animations, enemy AI, particle effects, and dynamic damage calculations. Creating this project was a challenging and educational endeavor.",
 		link: "https://sharemygame.com/@Zardian/gridbox-shooter",
 	},
 	{
@@ -208,13 +208,13 @@ const dataportfolio = [
 	{
 		img: "Images/zombieCrasher.png",
 		description:
-			"Zombie Crasher is an infinite runner game featuring shooting mechanics and obstacle destruction. It incorporates infinite platform generation, collision detection, health-bar system, skin customization, and a functional pause menu. Additionally, it served as inspiration for my venture into 3D modeling.",
+			"Zombie Crasher is an infinite runner game featuring shooting mechanics and obstacle destruction. It incorporates infinite platform generation, collision detection, health-bar system, skin customization, and a functional pause menu.",
 		link: "https://sharemygame.com/@Zardian/zombie-crasher",
 	},
 	{
 		img: "Images/goblinHunter.png",
 		description:
-			"In this game, I animated 3D models with triggers, implementing multiple animations for each state. A combat system inspired by RPGs was incorporated, utilizing animation events and sphere-casting. Player movement was facilitated through a character controller.",
+			"In this game, I animated 3D models with triggers, implementing multiple animations for each state. A RPG combat system was incorporated, utilizing animation events and sphere-casting. Player movement was facilitated through a character controller.",
 		link: "#",
 	},
 
@@ -233,13 +233,13 @@ const dataportfolio = [
 	{
 		img: "Images/loneSur1.jpg",
 		description:
-			"Tap to move and shoot! This casual arcade game for Android, available on the Play Store, features 4 character choices, customizable controls, and integrated ads through IronSource and Unity Mediation. Engaging gameplay awaits!",
+			"Tap to move and shoot! This casual arcade game for Android, available on the Play Store, features 4 character choices, customizable controls, and integrated ads through IronSource and Unity Mediation.",
 		link: "#",
 	},
 	{
 		img: "Images/quiz1.png",
 		description:
-			"Anime Quiz: Engage in a captivating quiz game designed for anime enthusiasts. Randomly ordered questions stored as scriptable objects, limited time to answer, highlighted correct answers, and an intriguing circular timer.",
+			"Quiz chan: Captivating quiz game designed for anime enthusiasts. Randomly ordered questions stored as scriptable objects, limited time to answer, highlighted correct answers, and an intriguing circular timer.",
 		link: "https://github.com/Zardian18/QuizGame",
 	},
 ];
