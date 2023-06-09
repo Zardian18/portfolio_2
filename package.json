@@ -46,5 +46,9 @@
     },
     "devDependencies": {
         "gh-pages": "^5.0.0"
-    }
+    },
+    "deploy": "gh-pages -b main -d build --no-history",
+    "catchLinks": true,
+    "catchRoutes": "404.html",
+    "version": "0.1.0"
 }
