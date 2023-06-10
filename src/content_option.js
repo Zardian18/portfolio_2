@@ -198,6 +198,12 @@ const dataportfolio = [
 			"In my game, dAI, players challenge a world ruled by sentient AI, battling against their control to restore freedom. Designed for the ZTM game jam, the objective is to strategically outwit and overcome relentless bots for ultimate triumph.",
 		link: "https://zardian018.itch.io/dai",
 	},
+	{
+		img: "Images/pokemonClass.png",
+		description:
+			"I developed a highly accurate ML model using scikit-learn libraries that classifies Pokemon as normal, ultra beast, legendary, or mythical, achieving a remarkable 99% accuracy.",
+		link: "https://github.com/Zardian18/pokemon-status-classifier/tree/main",
+	},
 
 	{
 		img: "Images/mainMenuBomb.png",
@@ -215,7 +221,7 @@ const dataportfolio = [
 		img: "Images/goblinHunter.png",
 		description:
 			"In this game, I animated 3D models with triggers, implementing multiple animations for each state. A RPG combat system was incorporated, utilizing animation events and sphere-casting. Player movement was facilitated through a character controller.",
-		link: "#",
+		link: "https://sharemygame.com/@Zardian/goblin-hunter",
 	},
 
 	{
@@ -234,7 +240,7 @@ const dataportfolio = [
 		img: "Images/loneSur1.jpg",
 		description:
 			"Tap to move and shoot! This casual arcade game for Android, available on the Play Store, features 4 character choices, customizable controls, and integrated ads through IronSource and Unity Mediation.",
-		link: "#",
+		link: "https://play.google.com/store/apps/details?id=com.Zardian.LoneSurvivor",
 	},
 	{
 		img: "Images/quiz1.png",
