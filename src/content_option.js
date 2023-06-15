@@ -223,6 +223,12 @@ const dataportfolio = [
 			"In this game, I animated 3D models with triggers, implementing multiple animations for each state. A RPG combat system was incorporated, utilizing animation events and sphere-casting. Player movement was facilitated through a character controller.",
 		link: "https://sharemygame.com/@Zardian/goblin-hunter",
 	},
+	{
+		img: "Images/bulldozerPrice.png",
+		description:
+			"Built a machine learning model for predicting bulldozer prices using Kaggle 2013 competition dataset. Achieved RMSLE of 0.245, placing in the top 30, if participated for accuracy.",
+		link: "https://github.com/Zardian18/bulldoser-price-predictor",
+	},
 
 	{
 		img: "Images/heartDisease.png",
