@@ -55,11 +55,17 @@ const skills = [
 		name: "Machine Learning (ML)",
 	},
 	{
-		name: "Artificial Intelligence (AI)",
+		name: "Tensorflow",
 	},
 
 	{
 		name: "Game Development",
+	},
+	{
+		name: "Natural Language Processing (NLP)",
+	},
+	{
+		name: "Sci-kit learn",
 	},
 	{
 		name: "Unity / VR Development",
@@ -106,12 +112,7 @@ const skills = [
 	{
 		name: "Data Structures",
 	},
-	{
-		name: "Natural Language Processing (NLP)",
-	},
-	{
-		name: "Sci-kit learn",
-	},
+
 	{
 		name: "INK",
 	},
@@ -161,6 +162,12 @@ const certificates = [
 	},
 ];
 const dataportfolio = [
+	{
+		img: "Images/dogVision.png",
+		description:
+			"I developed a highly accurate machine learning model using TensorFlow 2.0 and MobileNetV2 architecture to predict dog breeds from a dataset of 10,000+ dog images with 120 breeds. Achieved 99.91% accuracy and ranked 835 in a Kaggle competition.",
+		link: "https://github.com/Zardian18/dog-vision/",
+	},
 	{
 		img: "Images/Connan.jpg",
 		description:
