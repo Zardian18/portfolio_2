@@ -165,7 +165,7 @@ const dataportfolio = [
 	{
 		img: "Images/dogVision.png",
 		description:
-			"I developed a highly accurate machine learning model using TensorFlow 2.0 and MobileNetV2 architecture to predict dog breeds from a dataset of 10,000+ dog images with 120 breeds. Achieved 99.91% accuracy and ranked 835 in a Kaggle competition.",
+			"I developed a machine learning model using TensorFlow 2.0 and Keras, leveraging transfer learning with MobileNetV2 architecture. Using Anvil, I built a website where users can input dog images and receive accurate breed predictions from 120 options.",
 		link: "https://github.com/Zardian18/dog-vision/",
 	},
 	{
