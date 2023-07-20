@@ -151,6 +151,11 @@ const services2 = [
 
 const certificates = [
 	{
+		title: "Complete Machine Learning and Data Science Bootcamp",
+		description: "by: Zero to Mastery ",
+		link: "https://drive.google.com/file/d/1MaY6UcNq5nEvgeDTbabM94alpSgrKPlk/view?usp=sharing",
+	},
+	{
 		title: "Ultimate Guide to game development with unity",
 		description: "by: Johnathan Weinberg",
 		link: "https://drive.google.com/file/d/1daw01dCvkIUwmjmUWOAg76qK3L7iK0Hc/view",
