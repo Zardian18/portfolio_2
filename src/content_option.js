@@ -7,9 +7,9 @@ const meta = {
 const introdata = {
 	title: "I'm Harddik Bafna",
 	animated: {
-		first: "Game Developer",
-		second: "3D Modeler",
-		third: "Machine Learning Enthusiast",
+		first: "Machine Learning Enthusiast",
+		second: "Game Developer",
+		third: "3d Modeller",
 	},
 	description:
 		"I am an enthusiastic and versatile individual with a strong background in game development, 3D modeling, and machine learning. Fuelled by a deep passion for learning and coding, I constantly seek new challenges and love to explore innovative ideas. With my diverse skill set, I am dedicated to creating captivating and immersive experiences in the digital world.",
@@ -112,10 +112,6 @@ const skills = [
 	{
 		name: "Data Structures",
 	},
-
-	{
-		name: "INK",
-	},
 ];
 
 const services = [
@@ -174,6 +170,61 @@ const dataportfolio = [
 		link: "https://github.com/Zardian18/dog-vision/",
 	},
 	{
+		img: "Images/pokemonClass.png",
+		description:
+			"I developed a highly accurate ML model using scikit-learn libraries that classifies Pokemon as normal, ultra beast, legendary, or mythical, achieving a remarkable 99% accuracy.",
+		link: "https://github.com/Zardian18/pokemon-status-classifier/tree/main",
+	},
+	{
+		img: "Images/bulldozerPrice.png",
+		description:
+			"Built a machine learning model for predicting bulldozer prices using Kaggle 2013 competition dataset. Achieved RMSLE of 0.245, placing in the top 30, if participated for accuracy.",
+		link: "https://github.com/Zardian18/bulldoser-price-predictor",
+	},
+
+	{
+		img: "Images/heartDisease.png",
+		description:
+			"Heart Disease Prediction: Employing scikit-learn, I explored multiple ML models, comparing their performance using graphs and illustrations. After hyperparameter tuning with grid search CV, my project achieved an impressive 89% accuracy. A rewarding journey unveiling the potential of machine learning in diagnosing heart disease.",
+		link: "https://github.com/Zardian18/heart-disease-predictor",
+	},
+	{
+		img: "Images/blogapp.png",
+		description:
+			"A React.js website with hooks, facilitating blog creation, reading, and deletion. Users can easily add, browse, and remove blogs, ensuring a seamless and interactive experience for content creators and readers.",
+		link: "https://github.com/Zardian18/Z-Blog",
+	},
+	{
+		img: "Images/dai.png",
+		description:
+			"In my game, dAI, players challenge a world ruled by sentient AI, battling against their control to restore freedom. Designed for the ZTM game jam, the objective is to strategically outwit and overcome relentless bots for ultimate triumph.",
+		link: "https://zardian018.itch.io/dai",
+	},
+	{
+		img: "Images/loneSur1.jpg",
+		description:
+			"Tap to move and shoot! This casual arcade game for Android, available on the Play Store, features 4 character choices, customizable controls, and integrated ads through IronSource and Unity Mediation.",
+		link: "https://play.google.com/store/apps/details?id=com.Zardian.LoneSurvivor",
+	},
+	{
+		img: "Images/goblinHunter.png",
+		description:
+			"In this game, I animated 3D models with triggers, implementing multiple animations for each state. A RPG combat system was incorporated, utilizing animation events and sphere-casting. Player movement was facilitated through a character controller.",
+		link: "https://sharemygame.com/@Zardian/goblin-hunter",
+	},
+	{
+		img: "Images/darts.png",
+		description:
+			"Darts is a unique game with split-screen functionality for enhanced precision, self-created 3D models in Blender, and accurate scoring mechanics using collider prefabs for seamless collision detection and scoring updates.",
+		link: "https://sharemygame.com/@Zardian/dartgame",
+	},
+	{
+		img: "Images/mainMenuBomb.png",
+		description:
+			"This mobile game project offered a delightful experience and allowed me to learn touch and slide functionality. Players navigate by sliding their fingers, dodging bombs while exploring the captivating implementation of infinite parallax in the main menu.",
+		link: "https://sharemygame.com/@Zardian/bombdropper",
+	},
+	{
 		img: "Images/Connan.jpg",
 		description:
 			"Connan's Odyssey is my debut Android platformer game available on the Play Store. It features 15 levels, 5 diverse playable characters with unique abilities, multiple enemy types, integrates ads and player data storage",
@@ -191,38 +242,7 @@ const dataportfolio = [
 			"In gridbox-shooter, players experience raycast-based shooting mechanics, weapon variety with unique animations, enemy AI, particle effects, and dynamic damage calculations. Creating this project was a challenging and educational endeavor.",
 		link: "https://sharemygame.com/@Zardian/gridbox-shooter",
 	},
-	{
-		img: "Images/blogapp.png",
-		description:
-			"A React.js website with hooks, facilitating blog creation, reading, and deletion. Users can easily add, browse, and remove blogs, ensuring a seamless and interactive experience for content creators and readers.",
-		link: "https://github.com/Zardian18/Z-Blog",
-	},
-	{
-		img: "Images/darts.png",
-		description:
-			"Darts is a unique game with split-screen functionality for enhanced precision, self-created 3D models in Blender, and accurate scoring mechanics using collider prefabs for seamless collision detection and scoring updates.",
-		link: "https://sharemygame.com/@Zardian/dartgame",
-	},
 
-	{
-		img: "Images/dai.png",
-		description:
-			"In my game, dAI, players challenge a world ruled by sentient AI, battling against their control to restore freedom. Designed for the ZTM game jam, the objective is to strategically outwit and overcome relentless bots for ultimate triumph.",
-		link: "https://zardian018.itch.io/dai",
-	},
-	{
-		img: "Images/pokemonClass.png",
-		description:
-			"I developed a highly accurate ML model using scikit-learn libraries that classifies Pokemon as normal, ultra beast, legendary, or mythical, achieving a remarkable 99% accuracy.",
-		link: "https://github.com/Zardian18/pokemon-status-classifier/tree/main",
-	},
-
-	{
-		img: "Images/mainMenuBomb.png",
-		description:
-			"This mobile game project offered a delightful experience and allowed me to learn touch and slide functionality. Players navigate by sliding their fingers, dodging bombs while exploring the captivating implementation of infinite parallax in the main menu.",
-		link: "https://sharemygame.com/@Zardian/bombdropper",
-	},
 	{
 		img: "Images/zombieCrasher.png",
 		description:
@@ -230,46 +250,22 @@ const dataportfolio = [
 		link: "https://sharemygame.com/@Zardian/zombie-crasher",
 	},
 	{
-		img: "Images/goblinHunter.png",
+		img: "Images/quiz1.png",
 		description:
-			"In this game, I animated 3D models with triggers, implementing multiple animations for each state. A RPG combat system was incorporated, utilizing animation events and sphere-casting. Player movement was facilitated through a character controller.",
-		link: "https://sharemygame.com/@Zardian/goblin-hunter",
-	},
-	{
-		img: "Images/bulldozerPrice.png",
-		description:
-			"Built a machine learning model for predicting bulldozer prices using Kaggle 2013 competition dataset. Achieved RMSLE of 0.245, placing in the top 30, if participated for accuracy.",
-		link: "https://github.com/Zardian18/bulldoser-price-predictor",
+			"Quiz chan: Captivating quiz game designed for anime enthusiasts. Randomly ordered questions stored as scriptable objects, limited time to answer, highlighted correct answers, and an intriguing circular timer.",
+		link: "https://github.com/Zardian18/QuizGame",
 	},
 
-	{
-		img: "Images/heartDisease.png",
-		description:
-			"Heart Disease Prediction: Employing scikit-learn, I explored multiple ML models, comparing their performance using graphs and illustrations. After hyperparameter tuning with grid search CV, my project achieved an impressive 89% accuracy. A rewarding journey unveiling the potential of machine learning in diagnosing heart disease.",
-		link: "https://github.com/Zardian18/heart-disease-predictor",
-	},
 	{
 		img: "Images/galaxy.png",
 		description:
 			"My first UNITY game: a 2.5D endless scrolling adventure. Implemented prefab instantiation, Quaternions, power-up UI icons, scoring based on distance, local multiplayer, difficulty settings, player prefs, and dynamic health states. A valuable learning experience and a stepping stone for future game development.",
 		link: "https://sharemygame.com/@Zardian/galaxy-shooter",
 	},
-	{
-		img: "Images/loneSur1.jpg",
-		description:
-			"Tap to move and shoot! This casual arcade game for Android, available on the Play Store, features 4 character choices, customizable controls, and integrated ads through IronSource and Unity Mediation.",
-		link: "https://play.google.com/store/apps/details?id=com.Zardian.LoneSurvivor",
-	},
-	{
-		img: "Images/quiz1.png",
-		description:
-			"Quiz chan: Captivating quiz game designed for anime enthusiasts. Randomly ordered questions stored as scriptable objects, limited time to answer, highlighted correct answers, and an intriguing circular timer.",
-		link: "https://github.com/Zardian18/QuizGame",
-	},
 ];
 
 const contactConfig = {
-	YOUR_EMAIL: "zardian018@gmail.com",
+	YOUR_EMAIL: "harddik200b@gmail.com",
 	YOUR_FONE: "+91 6353806456",
 	description:
 		"If you find my work and profile interesting, don't hesitate to get in touch with me. I'm constantly involved in new projects to enhance my skills and stay updated with the latest developments. I'm eager to explore new opportunities that allow me to further expand my expertise. Feel free to reach out to me through the following links",
